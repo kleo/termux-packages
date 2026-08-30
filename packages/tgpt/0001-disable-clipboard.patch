@@ -15,7 +15,6 @@
 -)
 -
 -// CopyToClipboard copies text to the system clipboard
-+// CopyToClipboard is disabled because golang.design/x/clipboard requires JNI
  func CopyToClipboard(text string) {
 -	err := clipboard.Init()
 -
